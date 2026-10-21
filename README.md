@@ -18,3 +18,13 @@ brew install starcraft-cli
 - **speedrun-cli** - Browse speedrun.com leaderboards from your terminal
 - **pomme** - A powerful CLI tool for App Store Connect analytics, sales reports, and app management. [GitHub](https://github.com/guitaripod/pomme)
 - **starcraft-cli** - Command-line tool for tracking StarCraft 2 esports. [GitHub](https://github.com/guitaripod/StarCraftKit)
+
+## Services
+
+`claude-bridge` (prebuilt, Apple silicon) and `delegate` are signed under a fixed identity, so macOS keeps a firewall or privacy permission across `brew upgrade`.
+
+```bash
+brew install claude-bridge delegate
+brew services start claude-bridge
+claude-bridge pair
+```
