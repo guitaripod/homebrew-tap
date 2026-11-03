@@ -14,12 +14,12 @@ class FlaccyServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guitaripod/flaccy/releases/download/server-v1.1.0/flaccy-server-1.1.0-macos-arm64.tar.gz"
-      sha256 "d55fabbffc8917885bfba1b4e9910bb4180efcb6bbc539adaf7f3df5e9e34c85"
+      url "https://github.com/guitaripod/flaccy/releases/download/server-v1.2.0/flaccy-server-1.2.0-macos-arm64.tar.gz"
+      sha256 "8c2fc7bba9157147da368e15eaa1180b2b9a0666386b79b82a72ad49423a4a83"
     end
     on_intel do
-      url "https://github.com/guitaripod/flaccy/releases/download/server-v1.1.0/flaccy-server-1.1.0-macos-x86_64.tar.gz"
-      sha256 "af7db6f8ab19f560ca63b45a2ac49d9c3f67ea6fbc054d3d6e729f4b392b1eb2"
+      url "https://github.com/guitaripod/flaccy/releases/download/server-v1.2.0/flaccy-server-1.2.0-macos-x86_64.tar.gz"
+      sha256 "4f2adc99c6d93e2e7389afce53bdc67a6c6759e6b48d1bba561d50be2d2ce72a"
     end
   end
 
