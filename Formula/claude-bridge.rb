@@ -1,8 +1,8 @@
 class ClaudeBridge < Formula
   desc "Bridge that lets Tailscode drive Claude Code on this Mac over Tailscale"
   homepage "https://github.com/guitaripod/claude-bridge"
-  url "https://github.com/guitaripod/claude-bridge/releases/download/1.17.0/claude-bridge-1.17.0-darwin-arm64.tar.gz"
-  sha256 "aa3bb86014f0e2f5abc0c8f1d95de966fbf4c1cbf91d31ae439c62a8f9f0e661"
+  url "https://github.com/guitaripod/claude-bridge/releases/download/1.18.0/claude-bridge-1.18.0-darwin-arm64.tar.gz"
+  sha256 "d1ac04ee08ac0d32e55d69321acdf43a7b0a31f0216f8694ba4e478660fddf83"
   license "GPL-3.0-only"
 
   depends_on arch: :arm64
