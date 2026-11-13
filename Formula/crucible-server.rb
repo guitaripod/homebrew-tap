@@ -1,8 +1,8 @@
 class CrucibleServer < Formula
-  desc "Companion to Plex for Crucible: skips, Previously On and answers from a local model"
+  desc "Companion to Plex for Crucible: skips, Previously On and answers from a model you choose"
   homepage "https://github.com/guitaripod/Crucible/tree/master/server"
   license "GPL-3.0-only"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     url :stable
@@ -15,12 +15,12 @@ class CrucibleServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.2.0/crucible-server-0.2.0-macos-arm64.tar.gz"
-      sha256 "86a4fe25703812c0044bdeecc02bdbb660694c3c9da50e00c5aa3326c758f425"
+      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.3.0/crucible-server-0.3.0-macos-arm64.tar.gz"
+      sha256 "0a92ab850a26316deb6c197c54c3bc4b6d8053c7a34e0ec5543fe9b1341a488e"
     end
     on_intel do
-      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.2.0/crucible-server-0.2.0-macos-x86_64.tar.gz"
-      sha256 "2e0423e988b728d0fd3bf862bbbe4efd52a4b80f9438fe1c46e66fdace73e36a"
+      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.3.0/crucible-server-0.3.0-macos-x86_64.tar.gz"
+      sha256 "05b5eabb176796d0aea2edf2234e06615a389f1952ae4986cc51e0ac1d9caa55"
     end
   end
 
@@ -32,6 +32,7 @@ class CrucibleServer < Formula
     <<~EOS
       Run `crucible-server setup` once, on the Mac that runs Plex.
       It signs you in with Plex, finds a local model, keeps the server running and shows the QR code that pairs Crucible.
+      No local model? Use a hosted one with your own key: crucible-server model --url ADDRESS --name NAME --key-file FILE
     EOS
   end
 
