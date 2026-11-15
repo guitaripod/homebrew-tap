@@ -2,7 +2,7 @@ class CrucibleServer < Formula
   desc "Companion to Plex for Crucible: skips, Previously On and answers from a model you choose"
   homepage "https://github.com/guitaripod/Crucible/tree/master/server"
   license "GPL-3.0-only"
-  version "0.6.2"
+  version "0.6.3"
 
   livecheck do
     url :stable
@@ -15,12 +15,12 @@ class CrucibleServer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.6.2/crucible-server-0.6.2-macos-arm64.tar.gz"
-      sha256 "4879f9cdb1da13218930f49791465259f71f53bb196967e7587349ddaeaad727"
+      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.6.3/crucible-server-0.6.3-macos-arm64.tar.gz"
+      sha256 "54bf7eb564f71b181d37e3e3835c4b391cf7cae260c19db1eed460a6130c4456"
     end
     on_intel do
-      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.6.2/crucible-server-0.6.2-macos-x86_64.tar.gz"
-      sha256 "9ce854342b2c22d560b2006b47a1ddbf16ec7f256d379a89a8bbae58fc3fb7d2"
+      url "https://github.com/guitaripod/Crucible/releases/download/server-v0.6.3/crucible-server-0.6.3-macos-x86_64.tar.gz"
+      sha256 "49fb460e2b64f7ead5da0050aa6e094784849adfd663d571373873dc44dabc84"
     end
   end
 
